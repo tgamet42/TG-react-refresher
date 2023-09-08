@@ -1,7 +1,8 @@
 # react-refresher
 
-Getting Started with Create React App using MongoDB and Axios in Node.JS with Express
-Server backend functions for Thomas Gamet's refresher coding on React and client-server architectures.
+Getting Started with Create React App using MongoDB and Axios in Node.JS with Express.
+
+Server backend functions are the result of Thomas Gamet's refresher coding on React and client-server architectures.
 
 "express": "^4.18.2" for middle HTML and CSS serving
 "mongodb": "^5.0.1" for the back end
@@ -11,16 +12,16 @@ Install MongoDB and create a my-blog-db database within it
 Using MongoDB Compass add Collection Articles to my-blog-db and add data from ExampleArticlesForMongoDB.json
 Using MongoDB Compass add Collection Users to my-blog-db and add data from ExampleUsersForMongoDB.json
 
-The default MongoDB port number is assumed, and localhost is used, below
+The default MongoDB port number is assumed, and localhost is used.
 
 The API calls maintain a similar structure to the names of pages in which they are used.
 
 Start this backend from my-blog-backend with npx nodemon src/server.js
 
 Leave the default use of localhost and port 8000, or make appropriate changes
-The setup is rather permissive, and only suitable or development use
+The setup is rather permissive, and only suitable for development use
 
-App.js as main() entry for Thomas Gamet's refresher coding on React and client-server architectures.
+App.js is the frontend entry for Thomas Gamet's refresher coding on React and client-server architectures.
 
 Run this App with the following from my-blog
 npm run start
