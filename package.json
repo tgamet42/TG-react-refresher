@@ -1,0 +1,13 @@
+{
+  "name": "react-refresher",
+  "version": "0.0.0",
+  "description": "react-refresher",
+  "main": "my-blog-backend/src/server.js",
+  "author": {
+    "name": ""
+  },
+  "devDependencies": {
+    "eslint": "^8.49.0"
+  },
+  "eslintConfig": {}
+}

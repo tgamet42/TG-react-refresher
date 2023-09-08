@@ -1,0 +1,26 @@
+[{
+  "_id": {
+    "$oid": "63f2c8c518e6efad6e259f54"
+  },
+  "name": "Article001",
+  "title": "When to use MongDB Compass",
+  "content": [
+    "Use MongoDB Compass to add new blog articles.",
+    "Use MondoDB Compass to moderate upvotes and comments."
+  ],
+  "upvotes": 0,
+  "comments": []
+},{
+  "_id": {
+    "$oid": "63f2c8e718e6efad6e259f56"
+  },
+  "name": "Article002",
+  "title": "The To Do List",
+  "content": [
+    "1. Add a sign-in with password, and sign-out.",
+    "2. Add CRUD for articles instead of going to MongoDB Compass..",
+    "3. Add Web based authentication (Google or other OAUTH / IAM)"
+  ],
+  "upvotes": 0,
+  "comments": []
+}]

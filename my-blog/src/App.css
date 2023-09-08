@@ -1,0 +1,72 @@
+/* Reset some default styles for consistency */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/* Set a background color and font for the entire app */
+body {
+    background-color: #f0f0f0; /* Light gray background color */
+    font-family: Arial, sans-serif;
+    color: #333; /* Dark gray text color */
+}
+
+/* Style the main container of the app */
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh; /* Ensure the container takes at least the full viewport height */
+}
+
+/* Style the navigation bar */
+#menu-body {
+    flex-grow: 1; /* Allow the page content to expand and fill the available space */
+    width: 100%;
+    max-width: 800px; /* Adjust the maximum width to your preference */
+    max-height: 80px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #ff0; /* White background for content */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    justify-content: center; /* Center the menu items horizontally */
+    text-decoration: none;
+}
+
+/* Style the navigation bar */
+#page-body {
+    flex-grow: 1; /* Allow the page content to expand and fill the available space */
+    width: 100%;
+    max-width: 800px; /* Adjust the maximum width to your preference */
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #fff; /* White background for content */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+/* Style the navigation bar */
+.nav {
+    background-color: #333; /* Background color for the menu */
+    color: #fff; /* Text color for menu items */
+    display: flex; /* Make it a flex container */
+    justify-content: center; /* Center the menu items horizontally */
+    align-items: flex-start;
+}
+
+    .nav ul {
+        list-style: none; /* Remove list bullet points */
+        padding: 0; /* Remove default padding */
+        display: flex; /* Make it a flex container */
+        padding: 10px 10px; /* Adjust padding as needed */
+    }
+
+
+/* Style other specific elements or pages as needed */
+
+/* Move the "Name" and its text box below the "Comment" text box */
+#comment {
+    order: 1; /* Change the order of display */
+}
