@@ -29,4 +29,14 @@ npm run start
 This is kept simple with default ports and localhost used in all cases. The CSS file is also simple.
 The App sets up a Navigation Bar (also kept simple) and routing for Home, About, Articles, each Article, and a Sign-In
 
-Errors may indicate missing node_modules directories for node.js to run correctly. A public directory may also be needed under my-blog. These are rather large and therefor not part of the checkin on GitHub. A full installation of Node.js should take care of them less any deprecations or version issues.
+Errors may indicate missing node_modules directories for node.js to run correctly.
+
+The front-end need "npm install express" and "npm install react-scripts"
+The back-end needs "npm install express" and "npm install mongodb"
+Issues can often be resolved with an "npm update" to update the node_modules content in my-blog and my-blog-backend.
+If an update fails, a clean start is more likely to work than npm audit, however, you can try both.
+A clean rebuild works as follows
+  1. Delete package-lock.json (not package.json!) in your project folder.
+  2. Delete node_modules in your project folder.
+  3. Run npm install.
+  4. Finally, run npm audit fix --force (then test as --forcing may or may not require a code change - odds are low that it will require a code change).
